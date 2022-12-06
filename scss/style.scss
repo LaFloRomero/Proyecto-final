@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import 'variables';
+@import 'bootstrap/bootstrap.scss';
+
+.hero {
+    height: 100vh;
+    background-color: $primary;
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.main-heading {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 1.4;
+}
+
+.secondary-heading {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    margin-bottom: .2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.icon-figure .img-wrapper {
+    width: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+
+}
+
+#reviews {
+    article img {
+        width: 600px;
+    }
+}
